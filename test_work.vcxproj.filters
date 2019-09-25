@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gamethread.cpp" />
+    <ClCompile Include="svga\MAPPING.CPP" />
+    <ClCompile Include="svga\SVGADRV.CPP" />
+    <ClCompile Include="svga\Svgawin.cpp" />
+    <ClCompile Include="W32.cpp" />
+    <ClCompile Include="GameController.cpp">
+      <Filter>GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp" />
+    <ClCompile Include="Field.cpp">
+      <Filter>GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>GameClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="svga\Svga.h" />
+    <ClInclude Include="W32.h" />
+    <ClInclude Include="GameController.h">
+      <Filter>GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>GameClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="W32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameClasses">
+      <UniqueIdentifier>{274dc462-350a-4afa-9eaa-8a1736e17b96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

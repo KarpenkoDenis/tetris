@@ -127,8 +127,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp" />
+    <ClCompile Include="Field.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="GameController.cpp" />
     <ClCompile Include="gamethread.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="svga\MAPPING.CPP" />
     <ClCompile Include="svga\SVGADRV.CPP" />
     <ClCompile Include="svga\Svgawin.cpp" />
@@ -141,7 +144,10 @@
     <ResourceCompile Include="W32.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="GameController.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="svga\Svga.h" />
     <ClInclude Include="W32.h" />
